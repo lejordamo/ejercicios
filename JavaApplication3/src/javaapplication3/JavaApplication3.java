@@ -121,7 +121,7 @@ public class JavaApplication3 {
 */
       
       //EJERCICIO 9
-      
+      /*
       int numero,i,suma;
       i=0;
       suma=0;
@@ -155,6 +155,76 @@ public class JavaApplication3 {
       
       
       
+      */
+      
+      /*
+      
+      
+      for (int i = 0; i <= 10; i++) {
+
+    	System.out.println("Imprimo el valor de i: " + i);
+
+    	}
+   	 
+    	System.out.println("===================================");
+
+    	System.out.println("For decreciendo");
+   	 
+    	for (int i = 10; i >= 0; i--) {
+
+    	System.out.println("Imprimo el valor de i: " + i);
+
+    	}
+
+
+
+*/
+      /*
+      int numero,j;
+      j=0;
+       System.out.println("ingresa 4 numeros");
+        do {
+           
+            numero=leer.nextInt();
+            j++;
+            System.out.print(numero);
+            for (int i = 0; i < numero; i++) {
+                
+                System.out.print("*");
+                
+            }
+            System.out.println("");
+            
+            
+            
+            
+        } while (j<4);
+        
+      
+      */
+      
+      
+      
+      int numero;
+        System.out.println("ingresa un numero");
+        numero=leer.nextInt();
+        
+        if (numero % 2 == 0) {
+            System.out.println("el numero ingresado es par");
+            
+        }else{
+            System.out.println("el numero ingresado es impar");
+        }
+      
+      
+      
+      
+      
+      
+}
+
+      
+      
       
       
       
@@ -167,7 +237,7 @@ public class JavaApplication3 {
       
       
       
-}
+
 
       
       
