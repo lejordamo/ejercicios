@@ -203,12 +203,13 @@ public class JavaApplication3 {
       
       */
       
-      
-      
+      /*
+      //ejercicio 1 del segundo pdf
       int numero;
         System.out.println("ingresa un numero");
         numero=leer.nextInt();
         
+             
         if (numero % 2 == 0) {
             System.out.println("el numero ingresado es par");
             
@@ -217,10 +218,64 @@ public class JavaApplication3 {
         }
       
       
+      */
+      /*
+      //ejercicio 2
+      
+      String frase;
+        System.out.println("ingresa una frase");
+        frase=leer.nextLine();
+        
+        if (frase.equalsIgnoreCase("eureka")) {
+            System.out.println("CORRECTO");
+            
+        }else {
+            System.out.println("incorrecto");
+        }
+*/
       
       
       
+      //EJERCICIO 3
+      /*
+       String frase;
+        System.out.println("ingresa una frase");
+        frase=leer.nextLine();
+        int longi=frase.length();
+        
+        
+     
+        
+        if (longi==8)   {
+            System.out.println("CORRECTO");
+            
+        }else {
+            System.out.println("incorrecto");
+        }
+        */
+        
+        
+        //EJERCICIO 4
+       String frase;
+        System.out.println("ingresa una frase");
+        frase=leer.nextLine();
+        
+        
+        
+        char caracter = frase.charAt(0);
+        String str = String.valueOf(caracter);
+            
+        
+        if (str.equalsIgnoreCase("A")){
+            System.out.println("CORRECTO");
+            
+        }else {
+            System.out.println("incorrecto");
+        }
       
+      
+      
+}
 }
 
       
@@ -229,7 +284,7 @@ public class JavaApplication3 {
       
       
       
-    }
+    
 
       
       
