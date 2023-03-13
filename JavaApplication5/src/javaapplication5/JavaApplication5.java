@@ -17,9 +17,11 @@ public class JavaApplication5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        Scanner leer= new Scanner(System.in);
         // TODO code application logic here
         
-        
+        //EJERCICIO 5
        /* int limite, num, i, suma;
         Scanner leer = new Scanner(System.in);
        
@@ -51,6 +53,9 @@ public class JavaApplication5 {
               
         System.out.println("La suma llegó al valor de: " +suma);
 */
+      
+       //ejercicio 6
+       /*
        
         int num1,num2,menu;
        String salir="N";
@@ -114,7 +119,42 @@ public class JavaApplication5 {
        
         }while(menu!=5 || !salir.equalsIgnoreCase("S"));
        
+       */
        
+       
+       //EJERCICIO 7
+       
+       String codigo;
+       int incorrecto=-1;
+       int correcto=0;
+
+       
+       
+       do{
+        System.out.println("ingresa la secuencia");
+       codigo=leer.next();
+       
+       int longitud=codigo.length();
+       
+           if (codigo.length()>5 || codigo.length()<2) {
+               incorrecto++;
+               
+               
+           }else if (codigo.substring(0,1).equalsIgnoreCase("X") && (codigo.substring(longitud-1)).equalsIgnoreCase("O")) {
+               
+               correcto++;
+           }else{
+               incorrecto++;
+           }
+           
+           
+           
+       
+       }while(!codigo.equals("&&&&&"));
+       
+       
+        System.out.println("la cantidad de secuencias correctas es de " + correcto);
+        System.out.println("la cantidad de secuencias incorrectas es de " + incorrecto);
        
     }
     
