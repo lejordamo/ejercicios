@@ -256,6 +256,7 @@ public class JavaApplication3 {
         
         
         //EJERCICIO 4
+        /*
        String frase;
         System.out.println("ingresa una frase");
         frase=leer.nextLine();
@@ -273,7 +274,7 @@ public class JavaApplication3 {
             System.out.println("incorrecto");
         }
       
-      
+      */
       
 }
 }
