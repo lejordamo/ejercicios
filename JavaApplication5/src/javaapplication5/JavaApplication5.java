@@ -17,12 +17,12 @@ public class JavaApplication5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Scanner leer= new Scanner(System.in);
+
+        Scanner leer = new Scanner(System.in);
         // TODO code application logic here
-        
+
         //EJERCICIO 5
-       /* int limite, num, i, suma;
+        /* int limite, num, i, suma;
         Scanner leer = new Scanner(System.in);
        
         suma = 0;
@@ -52,10 +52,9 @@ public class JavaApplication5 {
         } while (suma<limite);
               
         System.out.println("La suma llegó al valor de: " +suma);
-*/
-      
-       //ejercicio 6
-       /*
+         */
+        //ejercicio 6
+        /*
        
         int num1,num2,menu;
        String salir="N";
@@ -119,12 +118,9 @@ public class JavaApplication5 {
        
         }while(menu!=5 || !salir.equalsIgnoreCase("S"));
        
-       */
-       
-       
-       //EJERCICIO 7
-       
-       String codigo;
+         */
+        //EJERCICIO 7
+        /*String codigo;
        int incorrecto=-1;
        int correcto=0;
 
@@ -155,7 +151,49 @@ public class JavaApplication5 {
        
         System.out.println("la cantidad de secuencias correctas es de " + correcto);
         System.out.println("la cantidad de secuencias incorrectas es de " + incorrecto);
-       
+         */
+        //EJERCICIO 8
+           /* 
+                int i;
+		int j;
+		int num;
+		System.out.println("Ingrese un número positivo mayor que 0");
+		num = leer.nextInt();
+		for (i=1;i<=num;i++) {
+			for (j=1;j<=num;j++) {
+				if ((i!=1 && i!=num) && (j!=1 && j!=num)) {
+					System.out.print("  ");
+				} else {
+					System.out.print("* ");
+				}
+			}
+			System.out.println("");
+		}
+        */
+           
+           
+           //EJERCICIO 1 EXTRA
+           
+           int minutos,horas,dias;
+           
+           System.out.println("ingresa la cantidad de minutos");
+           minutos=leer.nextInt();
+           
+           horas=Math.abs(minutos/60);
+           dias=Math.abs(horas/24);
+           
+           
+           do{
+               horas=horas-24;
+            
+        }while(horas>=24);
+           
+           
+           System.out.println("la cantidad de " + minutos + " minutos equivale a " + dias + " dias y " + horas + " horas");
+           
+           
+           
+
     }
-    
+
 }
