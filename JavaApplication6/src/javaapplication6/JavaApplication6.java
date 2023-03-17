@@ -203,7 +203,7 @@ public class JavaApplication6 {
 */
         
         //EJERCICIO 10
-        /*
+        
         long numero,contador;
         contador=0;
         System.out.println("ingresa un numero");
@@ -218,7 +218,7 @@ public class JavaApplication6 {
         } while (numero!=0);
         
         System.out.println("la cantidad de digitos del numero ingresado es: " +contador);
-        */
+        
         
         
         
